@@ -1,5 +1,4 @@
-# Prediction-of-Cas12a-activity
-Prediction of Cas12a trans-cleavage activity 
+# Prediction of Cas12a trans-cleavage activity 
 
 This project performs data processing, feature engineering, model prediction, and exports multiple analysis results into Excel files for a specific type of crRNA sequence data. Below is an explanation of each part of the code:
 1. Reading and Preprocessing Sequence Data
