@@ -10,7 +10,7 @@ o      The GC content (proportion of G and C bases) is calculated, and the seque
 •	Polynomial features are generated for the 24-base sequences, including squared terms and interaction terms between features.
 •	The expanded feature matrix is standardized using a pre-trained scaler, preparing it as input for the neural network model.
 4. Intermediate Result Prediction with a Neural Network
-•	An improved neural network, ImprovedNN, is constructed to predict intermediate features of the sequence. The input is the expanded and standardized feature matrix, and the output is a 168-dimensional prediction result.
+•	An improved neural network, ImprovedNN (IntermediateNN), is constructed to predict intermediate features of the sequence. The input is the expanded and standardized feature matrix, and the output is a 168-dimensional prediction result.
 •	The predictions are saved to an Excel file called predictions_for_crRNA_sequences.xlsx.
 5. Merging Features and Prediction Results
 •	The original features and predicted intermediate features are combined into a new DataFrame, saved to combined_crRNA_features_predictions.xlsx.
