@@ -1,6 +1,6 @@
 # Prediction of Cas12a trans-cleavage activity 
 
-This project performs data processing, feature engineering, model prediction, and exports multiple analysis results into Excel files for a specific type of crRNA sequence data. Below is an explanation of each part of the code:
+This project performs data processing, feature engineering, model prediction, and exports multiple analysis results into Excel files for a specific type of crRNA sequence data. Below is an explanation of each part of the code (Model application - Prediction of Cas12a trans-cleavage activity for new targets.py):
 1. Reading and Preprocessing Sequence Data
 •  It reads the base sequence data from an Excel file and uses a sliding window to extract 24-base subsequences. For each subsequence:
 o      It takes the first 20 bases, extracts the reverse complement of the last 4 bases (using the get_reverse_complement() function), and combines them into a new 24-base sequence.
