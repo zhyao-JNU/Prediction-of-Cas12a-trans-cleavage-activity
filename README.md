@@ -19,7 +19,7 @@ o      The GC content (proportion of G and C bases) is calculated, and the seque
 7. Sequence Decoding, Splitting, and Generating Reverse Complement
 •	The one-hot encoded feature matrix is decoded back to the original ATGC base sequences.
 •	The decoded sequence is split into specific segments: the first 20 bases, the last 4 bases, and the corresponding reverse complement sequence.
-•	The reverse complement sequence represents the reverse complement derived from the first 20 bases of the crRNA sequence, used in gene editing-related studies.
+•	The reverse complement sequence represents the reverse complement derived from the first 20 bases of the crRNA sequence.
 8. Merging and Saving Final Results
 •	Finally, all processed, predicted, split, and generated sequence results are saved to final_combined_predictions.xlsx, with multiple sheets:
 o	  CRRNA_Data_Expanded: Contains the original and expanded features.
