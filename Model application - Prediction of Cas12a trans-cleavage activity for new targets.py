@@ -218,7 +218,7 @@ with torch.no_grad():
 output_path = "/result"
 predictions_df = pd.DataFrame(predictions, columns=['Predicted Activity'])
 predictions_df.to_excel(os.path.join(output_path, "new_predictions.xlsx"), index=False)
-output_path = "/root/.virtualenvs/pythonProject/bin/result"
+output_path = "result"
 combined_file = os.path.join(output_path, "combined_crRNA_features_predictions.xlsx")
 activity_predictions_file = os.path.join(output_path, "new_predictions.xlsx")
 final_output_file = os.path.join(output_path, "final_combined_predictions.xlsx")
