@@ -194,8 +194,8 @@ class ActivityNN(nn.Module):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 input_dim = 265
-hidden_units = 256
-dropout_rate = 0.3
+hidden_units = 128
+dropout_rate = 0.002707760456745485
 
 activity_model = ActivityNN(input_dim, hidden_units, dropout_rate).to(device)
 model_save_path = "/result/activity_model.pth"
